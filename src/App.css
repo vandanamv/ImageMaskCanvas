@@ -1,0 +1,63 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+}
+
+.canvas-container {
+  margin: 20px;
+}
+
+.controls-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Space between elements */
+  margin-top: 20px;
+}
+
+.brush-size-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.image-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image-pair {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between the images */
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 300px;  /* Fixed width for both images */
+  height: 300px; /* Fixed height for both images */
+  object-fit: cover; /* Ensures aspect ratio is maintained and image is not distorted */
+}
+
+.download-button {
+  margin-top: 20px; /* Adds some space between the images and the download button */
+}
+
+button {
+  padding: 10px;
+  font-size: 14px;
+}
+
+input[type="range"] {
+  margin: 10px;
+}
